@@ -83,6 +83,14 @@ export const MetaActions = ({ isMobile = false }) => {
 
   return (
     <Flex align="center">
+      <IconButton
+        css={{ mx: "$4" }}
+        onClick={() => {
+          window.sendConfetti({ emojis: ["🎉"] });
+        }}
+      >
+        🎉
+      </IconButton>
       <Tooltip
         title={`${!isHandRaised ? "Raise" : "Unraise"} hand`}
         css={{ mx: "$4" }}
