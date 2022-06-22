@@ -20,8 +20,7 @@ import {
 } from "./services/tokenService";
 import "./base.css";
 import "./index.css";
-import LogoForLight from "./images/logo-dark.svg";
-import LogoForDark from "./images/logo-light.svg";
+import Logo from "./images/logo.jpg";
 import FullPageProgress from "./components/FullPageProgress";
 import { KeyboardHandler } from "./components/Input/KeyboardInputManager";
 import PostLeave from "./components/PostLeave";
@@ -112,7 +111,7 @@ export function EdtechComponent({
             tokenEndpoint={tokenEndpoint}
             policyConfig={policyConfig}
             appDetails={metadata}
-            logo={logo || (theme === "dark" ? LogoForDark : LogoForLight)}
+            logo={logo || Logo}
           >
             <Box
               css={{
