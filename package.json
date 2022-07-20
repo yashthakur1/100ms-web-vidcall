@@ -40,7 +40,7 @@
   "scripts": {
     "prebuild": "rm -rf build",
     "build": "webpack --node-env production",
-    "start": "webpack serve",
+    "start": "node server.js",
     "esbuild": "node ../../scripts/build-webapp",
     "dev": "node ../../scripts/dev-webapp",
     "format": "prettier -w src"
