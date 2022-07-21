@@ -39,7 +39,6 @@
     "express": "^4.17.3"
   },
   "scripts": {
-    "preinstall": "npm install --ignore-engines",
     "prebuild": "rm -rf build",
     "build": "webpack --node-env production",
     "start": "node server.js",
