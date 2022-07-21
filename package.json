@@ -1,7 +1,7 @@
 {
   "name": "100ms_edtech_template",
   "version": "0.1.4",
-  "description": "updated edtech template",
+  "description": "eb deploy -l v-vid-1.0.1",
   "private": true,
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
