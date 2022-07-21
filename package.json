@@ -39,6 +39,7 @@
     "express": "^4.17.3"
   },
   "scripts": {
+    "install": "npm install --only=production",
     "prebuild": "rm -rf build",
     "build": "webpack --node-env production",
     "start": "node server.js",
@@ -83,9 +84,5 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
     "webpack-manifest-plugin": "^4.1.1"
-  },
-  "engines": {
-    "npm": "6.0.0",
-    "node": "14.0.0"
   }
 }
