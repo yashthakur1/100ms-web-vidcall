@@ -1,5 +1,5 @@
 {
-  "name": "100ms conference app",
+  "name": "Dopamine app",
   "website": "https://100ms.live",
   "env": {
     "REACT_APP_TILE_SHAPE": {
