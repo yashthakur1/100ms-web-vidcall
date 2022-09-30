@@ -1,6 +1,6 @@
 import React from "react";
 import { Flex, Box, Text, useTheme } from "@100mslive/react-ui";
-import { CREATE_ROOM_DOC_URL } from "../common/constants";
+// import { CREATE_ROOM_DOC_URL } from "../common/constants";
 
 function ErrorPage({ error }) {
   const themeType = useTheme().themeType;
@@ -29,23 +29,12 @@ function ErrorPage({ error }) {
             direction="column"
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h3">Almost There!</Text>
+            <Text variant="h3">Welcome to Dopamine!</Text>
             <Text
               variant="body1"
               css={{ margin: "1.75rem", textAlign: "center" }}
             >
-              {
-                "Hi there! thanks for trying us out, there is not much here yet. Let's get you all setup to join a meeting. "
-              }
-              <a
-                href={CREATE_ROOM_DOC_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "underline" }}
-              >
-                Click here
-              </a>{" "}
-              for next steps
+              "Hi there! thanks for trying us out, there is not much here yet."
             </Text>
           </Flex>
         ) : (
