@@ -21,7 +21,7 @@ function HomePage({ error }) {
 
   const startSessionHandler = (e) => {
         e.preventDefault();
-        if(secretNumber.toString() !== "8390514291") {
+        if(secretNumber.toString() !== "9137534807") {
                 setErr(true);
         }
         else {

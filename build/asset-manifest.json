@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6a1a008.css",
-    "main.js": "/static/js/main.d6a1a008.js",
+    "main.css": "/static/css/main.f4319d24.css",
+    "main.js": "/static/js/main.f4319d24.js",
     "static/js/726.61975732.js": "/static/js/726.61975732.js",
     "static/js/642.64919972.js": "/static/js/642.64919972.js",
     "static/js/372.52d52bce.js": "/static/js/372.52d52bce.js",
@@ -21,8 +21,8 @@
     "static/media/first_person.png": "/static/media/first_person.0917322d0bba25059a53.png",
     "share-audio.png": "/share-audio.png",
     "test-audio.wav": "/test-audio.wav",
+    "static/media/logo-light.svg": "/static/media/logo-light.52b268d19d0e67e51ef6.svg",
     "static/media/logo-dark.svg": "/static/media/logo-dark.b0e7397a2f932a77b995.svg",
-    "static/media/logo-light.svg": "/static/media/logo-light.45d50c0aed3f640f2d1f.svg",
     "favicon.ico": "/favicon.ico",
     "logo512.png": "/logo512.png",
     "logo192.png": "/logo192.png",
@@ -33,8 +33,8 @@
     ".well-known/apple-app-site-association": "/.well-known/apple-app-site-association",
     "robots.txt": "/robots.txt",
     "_redirects": "/_redirects",
-    "main.d6a1a008.css.map": "/static/css/main.d6a1a008.css.map",
-    "main.d6a1a008.js.map": "/static/js/main.d6a1a008.js.map",
+    "main.f4319d24.css.map": "/static/css/main.f4319d24.css.map",
+    "main.f4319d24.js.map": "/static/js/main.f4319d24.js.map",
     "726.61975732.js.map": "/static/js/726.61975732.js.map",
     "372.52d52bce.js.map": "/static/js/372.52d52bce.js.map",
     "421.3688b7f2.js.map": "/static/js/421.3688b7f2.js.map",
@@ -48,7 +48,7 @@
     "404.3f8338e5.js.map": "/static/js/404.3f8338e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6a1a008.css",
-    "static/js/main.d6a1a008.js"
+    "static/css/main.f4319d24.css",
+    "static/js/main.f4319d24.js"
   ]
 }

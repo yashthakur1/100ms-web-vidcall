@@ -211,13 +211,49 @@ pre {
 /* mobile */
 @media screen and (max-width: 767px) {
   .main-div {
-    display: block !important;
+    flex-direction: column;
   }
-  .main-div .left-col{
+  .main-screen .main-div .left-col{
     width: 100%;
+    height: 50%;
+    align-items: flex-end;
   }
-  .main-div .right-col {
+  .main-screen .main-div .right-col {
     width: 100%;
+    height: 50%;
+  }
+  .main-screen .main-div .right-col img {
+    height: 95%;
+    object-fit: contain;
+  }
+
+  .main-screen .main-div .left-col .border-div {
+    margin: 20px auto 0 auto;
+    border-radius: 24px;
+    height: 300px;
+  }
+  .main-screen .main-div .left-col .border-div .black-div {
+    padding: 20px;
+    border-radius: 24px;
+  }
+  .main-screen .main-div .left-col .border-div .black-div h1 {
+    font-size: 36px;
+  }
+  .main-screen .main-div .left-col .border-div .black-div p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-screen .main-div .left-col .border-div .black-div button.btn {
+    padding: 14px 16px;
+    width: fit-content;
+  }
+
+  .modal-main .modal {
+    padding: 24px;
+    width: 90%;
+  }
+  .error-chip {
+    width: 51%;
   }
 
 }
