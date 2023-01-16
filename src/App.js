@@ -27,6 +27,7 @@ import {
 import { getRoutePrefix, shadeColor } from "./common/utils";
 import "./base.css";
 import "./index.css";
+import HomePage from "./components/HomePage";
 
 const Conference = React.lazy(() => import("./components/conference"));
 const PreviewScreen = React.lazy(() => import("./components/PreviewScreen"));
@@ -221,6 +222,7 @@ const RouteList = ({ getUserToken, getDetails }) => {
         path="/:roomId/"
         element={<RedirectToPreview getDetails={getDetails} />}
       />
+      <Route path="/" element={<HomePage />} />
       <Route path="*" element={<ErrorPage error="Invalid URL!" />} />
     </Routes>
   );
