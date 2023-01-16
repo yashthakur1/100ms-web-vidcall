@@ -148,4 +148,4 @@ export const SUBSCRIBED_NOTIFICATIONS = {
 export const CREATE_ROOM_DOC_URL =
   "https://github.com/100mslive/100ms-web/wiki/Creating-and-joining-a-room";
 
-export const API_URL = "https://stag.dopamine.fit/api/v1/";
+export const API_URL = "https://api.dopamine.fit/api/v1/";

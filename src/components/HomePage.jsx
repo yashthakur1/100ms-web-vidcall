@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
 import {useNavigate} from 'react-router-dom';
-import { Flex, Box, useTheme } from "@100mslive/react-ui";
+import { Flex } from "@100mslive/react-ui";
 // import { CREATE_ROOM_DOC_URL } from "../common/constants";
 import PHONE from "../images/phone.png";
 import ARROW from "../images/arrow-left.svg";
@@ -9,7 +9,7 @@ import CLOSE from "../images/close.svg";
 import {API_URL} from '../common/constants';
 
 function HomePage({ error }) {
-  const themeType = useTheme().themeType;
+//   const themeType = useTheme().themeType;
   const navigate = useNavigate();
 
   const [isModalOpen, setIsModalOpen] = React.useState(false);
@@ -21,7 +21,7 @@ function HomePage({ error }) {
 
   const startSessionHandler = (e) => {
         e.preventDefault();
-        if(secretNumber.toString() !== "8390514291") {
+        if(secretNumber.toString() !== "9137534807") {
                 setErr(true);
         }
         else {
@@ -69,7 +69,7 @@ function HomePage({ error }) {
                                         <div className="black-div">
                                                 <h1>Create your fitness session</h1>
                                                 <p>
-                                                        High quality live fitness sessions for everyone 
+                                                        High quality live fitness sessions for everyone
                                                 </p>
                                                 <button className="btn" onClick={() => setIsModalOpen(true)}>
                                                         Start instant meeting <img src={ARROW} alt="arrow" width="20px" />
